@@ -1,0 +1,177 @@
+body{
+  margin:0;
+  padding: 0;
+  background-color: #fff !important;
+}
+.App {
+  text-align: center;
+  /* background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% ); */
+  height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-family: 'Montserrat', sans-serif;
+  /* overflow: hidden; */
+  margin-bottom: 5%;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+table {
+  margin: auto ;
+  margin-top:12%;
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  /* width:50% !important; */
+  /* padding: inherit !important; */
+  padding: 5px;
+  font-size:1.2rem;
+  line-height: 1.5;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+.rfidTable{
+  width: 95% !important;
+  margin-top: 4% !important;
+  padding: auto 5% !important;
+  line-height: 1.5;
+  background-color: #fff !important;
+  
+}
+
+.tableParent th{
+  /* background-color: #ffedd2  !important ;  */
+}
+.tableParent tr:nth-child(odd) {
+  background-color: rgba(255,244,228,1)  !important ;
+  /* background-color: #fff  !important ; */
+}
+.tableParent tr:nth-child(even) {
+  background-color: rgba(240,246,238,1)  !important ;
+  /* background-color: #F6F6E9  !important ; */
+  /* opacity: 0.6; */
+}
+
+
+
+
+.rfidTable tr:nth-child(4n){
+  width: 95% !important;
+  margin-top: 4% !important;
+  padding: auto 5% !important;
+  background-color: rgba(240,246,238,1) !important  ;
+  /* background-color: #fff !important  ; */
+}
+
+.rfidTable tr:nth-child(4n+1){
+  width: 95% !important;
+  margin-top: 4% !important;
+  padding: auto 5% !important;
+  background-color: rgba(255,244,228,1) !important ;
+  /* background-color: #fff !important ; */
+}
+
+
+td, th {
+  
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  /* border-radius: 16px; */
+}
+
+
+.cardi {
+/* From https://css.glass */
+/* From https://css.glass */
+/* From https://css.glass */
+/* background: rgba(238, 237, 235, 0.3); */
+/* background:red; */
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(17.2px);
+-webkit-backdrop-filter: blur(17.2px);
+border: 1px solid rgba(238, 237, 235, 0.93);
+
+
+}
+.tableParent{
+margin: auto;
+margin-top: -3%;
+width: 60% !important;
+}
+.redi{
+color: red !important;
+}
+.normal{
+  color:#282c34;
+}
+.cardLogin{
+    /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: 30%;
+  margin: auto;
+  margin-top: 5%;
+  padding-top: 1.5%;
+  /* background-color: #EEEEEE; */
+  background-color: rgba(240,246,238,1) ;
+
+}
+.buttun{
+  background:"#F68989";
+  border:"#F68989" ;
+}
+td{
+  padding: 0.6rem !important;
+  height: max-content;
+}
+th{
+padding: 0.6rem !important;
+}
+.linki{
+  color:#61A4BC !important;
+  font-weight:500;
+}
+.alertu{
+/* height: 30pxx  x   x  !important; */
+padding: 2px 2px;
+width: 70%;
+}
