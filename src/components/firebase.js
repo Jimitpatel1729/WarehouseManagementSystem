@@ -3,7 +3,7 @@ import {getAuth} from "firebase/auth";
 
 const app = initializeApp({
   apiKey:"AIzaSyAn7civSw_Fg2HOFwwHl6f4AG8pQ0cHwxk",
-  authDomain: `${process.env.REACT_APP_AUTH_DOMAIN}`,
+  authDomain: "warehouse-management-sys-9a34b.firebaseapp.com",
   databaseURL: "https://warehouse-management-sys-9a34b-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "warehouse-management-sys-9a34b",
   storageBucket: "warehouse-management-sys-9a34b.appspot.com",
