@@ -7,6 +7,7 @@ import {initializeApp} from "firebase/app"
 import {getDatabase,ref,set,push, child,get, onValue} from "firebase/database";
 import { Link, useHistory } from "react-router-dom";
 import './App.css';
+
 // const app=initializeApp({   
 //   apiKey: "AIzaSyDbpOMH-JNM5QUzy2xkwOMkgq_vOHa6iWI",
 //   authDomain: "warehouse-d9de2.firebaseapp.com",

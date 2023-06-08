@@ -1,5 +1,7 @@
-import {firebase,initializeApp} from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
-import {getAuth} from "https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js"
+// import {firebase,initializeApp} from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+import { firebase,initializeApp } from 'firebase/app';
+// import {getAuth} from "https://www.gstatic.com/firebasejs/9.6.7/firebase-auth.js";
+import {getAuth} from "firebase/auth";
 
 // const app = initializeApp({
 //   apiKey: "AIzaSyDbpOMH-JNM5QUzy2xkwOMkgq_vOHa6iWI",

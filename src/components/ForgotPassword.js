@@ -3,7 +3,7 @@ import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { Link } from "react-router-dom"
 import NavBaru from "./navBar"
-import "./App.css"
+import './App.css'
 import Navbaru from "./navBar"
 
 export default function ForgotPassword() {
