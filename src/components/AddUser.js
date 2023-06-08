@@ -33,21 +33,7 @@ const AddUsers=({Users}) => {
       setSuc("")
     }
   
-    // push(ref(db, 'Rfid Users'), {
-    //     username:"moni",
-    //     designation:"cutest girlfriend",
-        
-    //   });
-    // db.ref("Rfid Users").remove()
-    // reference().ref("Rfid User1").set({name:"moni",designation:"cutest girlfriend"});
-        // console.log(dbRef);
-    // Push Function
-    // const Push = () => {
-    //   database.ref("user").set({
-    //     name : name,
-    //     age : age,
-    //   }).catch(alert);
-    // }
+  
     
     return (<>
       <Navbaru/>
