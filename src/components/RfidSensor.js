@@ -1,7 +1,6 @@
 import React from 'react';
 import TabElement from './tabElement';
 import Navbaru from './navBar';
-// import Navbari from './navBari';
 import {Table} from 'react-bootstrap';
 import './App.css';
 
@@ -21,25 +20,3 @@ const RfidSensor = ({arr})=>{
 }
 
 export default RfidSensor;
-
-
-
-// function AlertDismissibleExample() {
-//     const [show, setShow] = useState(true);
-  
-//     if (show) {
-//       return (
-//         <Alert variant="danger" onClose={() => setShow(false)} dismissible>
-//           <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
-//           <p>
-//             Change this and that and try again. Duis mollis, est non commodo
-//             luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-//             Cras mattis consectetur purus sit amet fermentum.
-//           </p>
-//         </Alert>
-//       );
-//     }
-//     return <Button onClick={() => setShow(true)}>Show Alert</Button>;
-//   }
-  
-//   render(<AlertDismissibleExample />);

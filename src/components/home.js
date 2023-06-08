@@ -1,6 +1,6 @@
 import {React, useState} from 'react';
 import Navbaru from './navBar';
-import Navbari from './navBari';
+// import Navbari from './navBari';
 import Lottie from 'react-lottie';
 import {Navbar, Container, Button} from 'react-bootstrap';
 import factoryanime from '../Lotties/factoryanime.json'

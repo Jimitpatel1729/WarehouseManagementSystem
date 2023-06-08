@@ -5,14 +5,8 @@ body{
 }
 .App {
   text-align: center;
-  /* background-image: linear-gradient( 68.3deg,  rgba(245,177,97,1) 0.4%, rgba(236,54,110,1) 100.2% ); */
   height: 100vh;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   font-family: 'Montserrat', sans-serif;
-  /* overflow: hidden; */
   margin-bottom: 5%;
 
 }
@@ -54,17 +48,10 @@ body{
 table {
   margin: auto ;
   margin-top:12%;
-  /* font-family: arial, sans-serif; */
   border-collapse: collapse;
-  /* width:50% !important; */
-  /* padding: inherit !important; */
   padding: 5px;
   font-size:1.2rem;
   line-height: 1.5;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 .rfidTable{
   width: 95% !important;
@@ -75,17 +62,12 @@ table {
   
 }
 
-.tableParent th{
-  /* background-color: #ffedd2  !important ;  */
-}
+
 .tableParent tr:nth-child(odd) {
   background-color: rgba(255,244,228,1)  !important ;
-  /* background-color: #fff  !important ; */
 }
 .tableParent tr:nth-child(even) {
   background-color: rgba(240,246,238,1)  !important ;
-  /* background-color: #F6F6E9  !important ; */
-  /* opacity: 0.6; */
 }
 
 
@@ -96,7 +78,6 @@ table {
   margin-top: 4% !important;
   padding: auto 5% !important;
   background-color: rgba(240,246,238,1) !important  ;
-  /* background-color: #fff !important  ; */
 }
 
 .rfidTable tr:nth-child(4n+1){
@@ -104,7 +85,6 @@ table {
   margin-top: 4% !important;
   padding: auto 5% !important;
   background-color: rgba(255,244,228,1) !important ;
-  /* background-color: #fff !important ; */
 }
 
 
@@ -113,16 +93,10 @@ td, th {
   border: 1px solid #dddddd;
   text-align: center;
   padding: 8px;
-  /* border-radius: 16px; */
 }
 
 
 .cardi {
-/* From https://css.glass */
-/* From https://css.glass */
-/* From https://css.glass */
-/* background: rgba(238, 237, 235, 0.3); */
-/* background:red; */
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(17.2px);
@@ -143,15 +117,10 @@ color: red !important;
   color:#282c34;
 }
 .cardLogin{
-    /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   width: 30%;
   margin: auto;
   margin-top: 5%;
   padding-top: 1.5%;
-  /* background-color: #EEEEEE; */
   background-color: rgba(240,246,238,1) ;
 
 }
@@ -171,7 +140,6 @@ padding: 0.6rem !important;
   font-weight:500;
 }
 .alertu{
-/* height: 30pxx  x   x  !important; */
 padding: 2px 2px;
 width: 70%;
 }

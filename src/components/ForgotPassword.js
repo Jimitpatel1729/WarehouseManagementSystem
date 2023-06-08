@@ -2,9 +2,8 @@ import React, { useRef, useState } from "react"
 import { Form, Button, Card, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
 import { Link } from "react-router-dom"
-import NavBaru from "./navBar"
 import './App.css'
-import Navbaru from "./navBar"
+
 
 export default function ForgotPassword() {
   const emailRef = useRef()
@@ -50,9 +49,6 @@ export default function ForgotPassword() {
           </div>
         </Card.Body>
       </Card>
-      {/* <div className="w-100 text-center mt-2">
-        Need an account? <Link to="/signup">Sign Up</Link>
-      </div> */}
     </>
   )
 }
